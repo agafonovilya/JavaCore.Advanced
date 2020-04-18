@@ -6,6 +6,6 @@ public interface Participant {
     void newPowerJumpHeight(); //Обновляем силы участника на бег до его максимальных сил
 
     boolean reducePowerRunLength(int length); //Уменьшаем силы участника на бег
-    boolean reducePowerJumpHeight(float height); //Уменьшаем силы участника на прыжок
+    boolean reducePowerJumpHeight(float height); //Уменьшаем силы участника на прыжок.
 
 }

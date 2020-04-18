@@ -12,7 +12,7 @@ public class Wall implements Obstacle{
 
     /**
      * Метод преодоления препятствия
-     * @param participant - участник соревнования
+     * @param participant - участник соревнования.
      * @return
      */
     public boolean passObstacle(Participant participant) {

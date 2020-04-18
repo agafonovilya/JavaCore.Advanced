@@ -34,7 +34,7 @@ public class Robot implements Participant{
 
     /**
      * Участник пытается пробежать рассотяние. После этого его силы убавляются.
-     * @param length - расстояние, на которое убавляем силы
+     * @param length - расстояние, на которое убавляем силы.
      */
     @Override
     public boolean reducePowerRunLength(int length) {
