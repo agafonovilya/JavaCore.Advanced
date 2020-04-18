@@ -4,15 +4,19 @@ import homework1.participant.Participant;
 
 public class RunningTrack implements Obstacle{
 
-    private int length;
+    private final int length; //Длина дорожки
 
     public RunningTrack(int length) {
         this.length = length;
     }
 
+    /**
+     * Метод преодоления препятствия
+     * @param participant - участник соревнования
+     * @return
+     */
     public boolean passObstacle(Participant participant) {
-        if (participant.getMaxRunLength() >= this.length) {
-
+        if (participant.reducePowerRunLength(this.length)) {
             System.out.println("Участник " + participant + " пробежал дистанцию " + this.length);
             return true;
         } else {
