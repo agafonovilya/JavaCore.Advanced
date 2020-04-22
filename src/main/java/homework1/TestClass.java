@@ -29,7 +29,7 @@ public class TestClass {
         obstacles[6] = new RunningTrack(900);
         obstacles[7] = new Wall(0.4f);
 
-        Competition competition = new Competition();  //Создаем соревнование
+        Competition competition = new Competition();  //Создаем соревнование.
         competition.setObstacles(obstacles); //Передаем препятствия в соревнование
         competition.setParticipants(participants); //Передаем участников в соревнования
 
